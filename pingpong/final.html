@@ -15,7 +15,36 @@
                 $("#includedContent").load("./menu.html");
             });
         </script>
-
+  <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    </br>
+                    <p><b>Několik zajímavých faktů z vývoje hry:</b></p>
+                    <ul>
+                        <li>Hra vznikla na kroužku programování <a href="http://freecodeclub.tk" target="_blank"><b class="lead">Free Code Club</b></a></li>
+                        <li>Výchozím bodem byl tento <a href="https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript" target="_blank"><b>tutoriál</b></a></li>
+                        <li>Použili jsme technologie <b>HTML5, CSS, Bootstrap, jQuery, Javascript</b></li>
+                        <li>Při výpočtech úhlů dopadu a odrazu míčku jsme využili <b>goniometrické funkce</b> sinus, cosinus a tangens</li>
+                        <li>Pro výpočet zrychlování míčku jsme zase využili <b>limitní funkci</b></li>
+                        <li>Hra je vykreslována na HTML element <b>&lt;canvas&gt;</b> a zvukové efekty jsou zajištěny HTML elementem <b>&lt;audio&gt;</b></li>
+                        <li>Za zmínku stojí využití databáze <a href="https://www.firebase.com" target="_blank"><b>Firebase</b></a>, která poskytuje velmi přívětivé <a href="https://cs.wikipedia.org/wiki/API" target="_blank"><b>API</b></a></li>
+                    </ul>
+                    </br>
+                    <p><b>Návod ke hře:</b></p>
+                    <ul>
+                        <li>Poté co vstoupíte na stránku nebo ji obnovíte je třeba zadat jména hráčů do 2 vyskakovacích dialogových oken, jinak se hra nespustí</li>
+                        <li>Spodní hráč je ovládán číslicemi 1,2,3,5 na numerické klávesnici</li>
+                        <li>Horní hráč klávesami A,D,W,S</li>
+                        <li>Hraje se do 3 bodů</li>
+                        <li>Hru lze pozastavit klávesou P</li>
+                        <li>Pro zvýšení herního zážitku si zapni zvuk :-)</li>
+                    </ul>
+                    
+                </div>
+                <div class="col-xs-8">
+                    <canvas id="myCanvas" width="1000" height="600">Your browser does not support the HTML5 canvas tag.</canvas>
+                    <canvas id="myCanvas2" width="1000" height="100">Your browser does not support the HTML5 canvas tag.</canvas>
+                </div>
         <canvas id="myCanvas1" width="1000" height="180">Your browser does not support the HTML5 canvas tag.</canvas>
         <canvas id="myCanvas" width="1000" height="600">Your browser does not support the HTML5 canvas tag.</canvas>
         <canvas id="myCanvas2" width="1000" height="100">Your browser does not support the HTML5 canvas tag.</canvas>
